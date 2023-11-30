@@ -36,22 +36,15 @@
                         <li class="nav-item"><a class="nav-link" href="/TerrainPrecipitation">Terrain Caused Precipitation</a></li>
                         <li class="nav-item"><a class="nav-link" href="/AI_Application">AI Application on Weather Prediction</a></li>
                     </ul>
-
-                    <ul class="navbar-nav ms-auto mt-2">
-                        <li class="nav-item"><a class="nav-link" href="/Glossary_Query">Question</a></li>
-                    </ul>
-
                 </div>
             </div>
         </nav>
 
-        {% if get_flashed_messages() %}
-            <header>
-                <div class="alert alert-primary mb-0 text-center" role="alert">
-                    {{ get_flashed_messages() | join(" ") }}
-                </div>
-            </header>
-        {% endif %}
+        <header>
+            <div class="alert alert-primary mb-0 text-center" role="alert">
+                {{ get_flashed_messages() | join(" ") }}
+            </div>
+        </header>
         
         <main>
 
@@ -66,9 +59,9 @@
             </p>
             <p></p>
             <p>
-                Regarding radar reflectivity nowcasting,WGAN-GP is used to predict the extrapolation of radar reflectivity. 1-year radardata in winter is applied for training the AI model. The generator is based on theUNET backbone and adding channel and spatial attention and the discriminator isbased on the CNN structure. The final results show that the AI radarreflectivity nowcasting has a higher ETS score than the traditional nowcastingmethod (MAPLE), which represents that the AI model performs much better!
+                Regarding radar reflectivity nowcasting, WGAN-GP is used to predict the extrapolation of radar reflectivity. 1-year radar data in winter is applied for training the AI model. The generator is based on theUNET backbone and adding channel and spatial attention and the discriminator isbased on the CNN structure. The final results show that the AI radarreflectivity nowcasting has a higher ETS score than the traditional nowcastingmethod (MAPLE), which represents that the AI model performs much better!
             </p>
-            <img src="/static/AI_application.png" alt="image" width=1000>
+            <img src="static/AI_application.png" alt="image" width=1000>
             <p id="figure">Figure. Illustration of this research.</p>
         </main>
      </body>
