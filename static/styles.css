@@ -1,7 +1,7 @@
 /* Size for brand */
 
 .KAI {
-    width: 1400;
+    width: 1400px;
     margin: 50px auto;
     overflow: hidden;
 }
@@ -17,7 +17,7 @@
 }
 
 .paragraph {
-    width: 100%;
+    width: 80%;
     margin: 50px auto;
     overflow: hidden;
 }
