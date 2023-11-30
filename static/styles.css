@@ -2,25 +2,25 @@
 
 .KAI {
     width: 90%;
-    margin: 3% auto;
+    margin: 1% auto;
     overflow: hidden;
 }
 
 .Research_Content{
     float: left;
     width: 60%;
-    margin: 3% auto;
+    margin: 1% auto;
 }
 
 .product{
     float: right;
     width: 40%;
-    margin: 3% auto;
+    margin: 1% auto;
 }
 
 .paragraph {
     width: 80%;
-    margin: 50px auto;
+    margin: 1% auto;
     overflow: hidden;
 }
 
