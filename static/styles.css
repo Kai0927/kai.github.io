@@ -1,0 +1,90 @@
+/* Size for brand */
+
+.KAI {
+    width: 1400px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.Research_Content{
+    float: left;
+    width: 60%;
+}
+
+.product{
+    float: right;
+    width: 40%;
+}
+
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+
+nav .navbar-brand .black
+{
+    color: black;
+}
+
+#name {
+    font-family: monospace;
+    font-size: 60px;
+    text-emphasis: underline;
+    color: #537fbe;
+}
+
+.about {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px;
+}
+
+.about_product {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+}
+
+h1 {
+    color: #5967ff;
+}
+
+td {
+    font-size: 20px;
+    color: #808080;
+}
+
+#topic {
+    font-size: 22px;
+    color: #5967ff;
+}
+
+#contact {
+    font-size: 20px;
+    color: red;
+}
+
+#tool {
+    font-size: 22px;
+    color: #5967ff;
+}
+
+.topic {
+    font-size: 22px;
+}
+
+.nav-link {
+    color: black;
+}
+
+#figure {
+    font-size: 22px;
+    color: #5967ff;
+}

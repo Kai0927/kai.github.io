@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <div class="KAI">
+        <h1>This is <span id="name">KAI-I</span> research experience</h1>
+        <div class="Research_Content">
+            <img src="/static/S__21307413.jpg" alt="image" width=800>
+            <p></p>
+            <h3 class="about">Major in machine learning & atmospheric science</h3>
+
+            <ul calss="topic_name">
+                <li class="topic">
+                    <a class="nav-link" href="/CloudSeeding">
+                        Cloud Seeding research
+                    </a>
+                </li>
+                <li class="topic">
+                    <a class="nav-link" href="/TerrainPrecipitation">
+                        Terrain caused precipitation
+                    </a>
+                </li>
+                <li class="topic">
+                    <a class="nav-link" href="/AI_Application">
+                        AI application on weather prediction
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="product">
+            <h3 class="about_product">AI prediction product</h3>
+            <img src="/static/AI_pred.gif" alt="image" width=550>
+            <p></p>
+            <li calss="product_text"> WGAN-GP strucure is used to train the generator.</li>
+            <li calss="product_text"> More accurate than the traditional nowcasting.</li>
+            <li calss="product_text"> This product can predict the propogation of radar reflectivity in 60 min.</li>
+            <li calss="product_text"> More details in <a href="/AI_Application">AI application on weather prediction.</a></li>
+            <p><span id="contact">Contact me:</span> kaiyilin0927@gmail.com <a href="https://www.linkedin.com/in/%E5%87%B1%E7%BF%8A-%E6%9E%97-3b503028b/">KAI-I Linkedin</a></p>
+        </div>
+        
+        <div class="table">
+            <p></p>
+            <table cellpadding="12" class="table table-sm">
+                <tr>
+                    <th id="topic">Topic</th>
+                    <th id="tool">Tools</th>
+                </tr>
+                <tr>
+                    <td>Cloud seeding research</td>
+                    <td>In-situ Observation & Model simulation</td>
+                </tr>
+                <tr>
+                    <td>Terrain caused precipitation</td>
+                    <td>Radar Observation & WISSDOM</td>
+                </tr>
+                <tr>
+                    <td>AI application on weather prediction</td>
+                    <td>DNN & WGAN-GP</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<script src="/static/script.js"></script>
+{% endblock %}
