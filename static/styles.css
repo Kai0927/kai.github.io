@@ -9,11 +9,13 @@
 .Research_Content{
     float: left;
     width: 60%;
+    margin: 3% auto;
 }
 
 .product{
     float: right;
     width: 40%;
+    margin: 3% auto;
 }
 
 .paragraph {
